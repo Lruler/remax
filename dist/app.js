@@ -1500,10 +1500,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var remax_one__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! remax/one */ "./node_modules/remax/one.js");
-/* harmony import */ var _Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@remax/plugin-error-screen/lib/ErrorScreen.development.js */ "./node_modules/@remax/plugin-error-screen/lib/ErrorScreen.development.js");
-/* harmony import */ var _Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@remax/plugin-error-screen/lib/ErrorBoundary.js */ "./node_modules/@remax/plugin-error-screen/lib/ErrorBoundary.js");
-/* harmony import */ var _Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@remax/plugin-error-screen/lib/ErrorScreen.development.js */ "./node_modules/@remax/plugin-error-screen/lib/ErrorScreen.development.js");
+/* harmony import */ var _Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@remax/plugin-error-screen/lib/ErrorBoundary.js */ "./node_modules/@remax/plugin-error-screen/lib/ErrorBoundary.js");
+/* harmony import */ var _Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3__);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
@@ -1519,8 +1519,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     var component = _ref.component;
 
     function ErrorBoundaryWrap(props, ref) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3___default.a, {
-        errorScreen: _Users_lruler_Desktop_clock_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2___default.a
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorBoundary_js__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        errorScreen: _Users_lruler_Desktop_remax_node_modules_remax_plugin_error_screen_lib_ErrorScreen_development_js__WEBPACK_IMPORTED_MODULE_2___default.a
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(component, _objectSpread(_objectSpread({}, props), {}, {
         ref: ref
       })));
@@ -14216,7 +14216,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_lruler_Desktop_clock_node_modules_remax_react_devtools_core_dist_backend_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@remax/react-devtools-core/dist/backend.js */ "./node_modules/@remax/react-devtools-core/dist/backend.js");
+/* harmony import */ var _Users_lruler_Desktop_remax_node_modules_remax_react_devtools_core_dist_backend_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@remax/react-devtools-core/dist/backend.js */ "./node_modules/@remax/react-devtools-core/dist/backend.js");
 
 
 /***/ }),
@@ -14290,9 +14290,9 @@ module.exports = require('/__remax_runtime_options__');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/lruler/Desktop/clock/node_modules/webpack-inject-plugin/dist/webpack-inject-plugin.loader?id=webpack-inject-module-1! */"./node_modules/webpack-inject-plugin/dist/webpack-inject-plugin.loader.js?id=webpack-inject-module-1!./");
+__webpack_require__(/*! /Users/lruler/Desktop/remax/node_modules/webpack-inject-plugin/dist/webpack-inject-plugin.loader?id=webpack-inject-module-1! */"./node_modules/webpack-inject-plugin/dist/webpack-inject-plugin.loader.js?id=webpack-inject-module-1!./");
 __webpack_require__(/*! @remax/apply-runtime-options */"./node_modules/@remax/apply-runtime-options.js");
-module.exports = __webpack_require__(/*! /Users/lruler/Desktop/clock/src/app.entry.js */"./src/app.entry.js");
+module.exports = __webpack_require__(/*! /Users/lruler/Desktop/remax/src/app.entry.js */"./src/app.entry.js");
 
 
 /***/ })

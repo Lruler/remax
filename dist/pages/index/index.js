@@ -3607,9 +3607,30 @@ function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Sy
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
+ // import Request from '../../service/request';
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
+  var handleTap = function handleTap() {
+    setCount(function (count) {
+      return count + 1;
+    });
+    Object(remax_wechat__WEBPACK_IMPORTED_MODULE_1__["request"])({
+      url: 'http://localhost:8000/blog/list?page=3',
+      //仅为示例，并非真实的接口地址
+      header: {
+        'content-type': 'application/json' // 默认值
+
+      },
+      success: function success(res) {
+        console.log(res.data);
+      },
+      error: function error(_error) {
+        console.log(_error);
+      }
+    });
+  };
+
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_0__["useState"](0),
       _React$useState2 = _slicedToArray(_React$useState, 2),
       count = _React$useState2[0],
@@ -3618,11 +3639,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](remax_wechat__WEBPACK_IMPORTED_MODULE_1__["View"], {
     className: _index_css_modules__WEBPACK_IMPORTED_MODULE_2___default.a.app
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](remax_wechat__WEBPACK_IMPORTED_MODULE_1__["Text"], null, count), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](remax_wechat__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    onTap: function onTap() {
-      return setCount(function (count) {
-        return count + 1;
-      });
-    }
+    onTap: handleTap
   }, "\u70B9\u6211+1"));
 });
 
@@ -3635,7 +3652,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/lruler/Desktop/clock/src/pages/index/index.entry.js */"./src/pages/index/index.entry.js");
+module.exports = __webpack_require__(/*! /Users/lruler/Desktop/remax/src/pages/index/index.entry.js */"./src/pages/index/index.entry.js");
 
 
 /***/ })
