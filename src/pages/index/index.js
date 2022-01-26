@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, Image, Button, request } from 'remax/wechat';
+import { View, Text, Image, Button, request, Input } from 'remax/wechat';
 // import Request from '../../service/request';
 import styles from './index.css';
 
@@ -26,6 +26,7 @@ export default () => {
   return (
     <View className={styles.app}>
       <Text>{count}</Text>
+      <Input placeholder='哦哦哦哦哦哦'></Input>
       <Button onTap={handleTap}>点我+1</Button>
     </View>
   );
